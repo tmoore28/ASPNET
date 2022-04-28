@@ -20,10 +20,10 @@
         <td>@Model.StockLevel</td>
     </tr>
 </table>
-<div style="display: block">
+<div class="btn btn-dark">
     <a href="/Product/UpdateProduct/@Model.ProductID">Update this Product</a>
 </div>
-<div style="display: block">
+<div class="btn btn-primary">
 
     @using (Html.BeginForm("DeleteProduct", "Product", "Post"))
     {
